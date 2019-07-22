@@ -10,7 +10,7 @@ The example is inspired by the money transfer algorithm example.
 The C++20 core features used are the "Constraints and concepts" 
 (https://en.cppreference.com/w/cpp/language/constraints)
 
-##Compilation under linux
+## Compilation under linux
 
 At the time of writing GCC will compile this project with the following command:
 
