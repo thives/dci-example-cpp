@@ -10,6 +10,7 @@ namespace MoneyTransferContext
 	template<typename T> concept bool ACCOUNT_Constraint = requires(T a) {
 		{ a.balance() } -> double;
 		{ a.name() } -> std::string;
+		{ a.description() } -> std::string;
 	};
 	
 	template<typename T> concept bool SOURCE_Constraint = requires(T a) {

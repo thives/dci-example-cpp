@@ -24,4 +24,9 @@ std::string CheckingAccount::name() const
 {
 	return "Checking account"s;
 }
+
+std::string CheckingAccount::description() const
+{
+	return "Checking account"s;
+}
 }

@@ -12,6 +12,7 @@ namespace Data
 		double balance() const;
 		double decrement(double amount);
 		std::string name() const;
+		std::string description() const;
 	private:
 		double m_balance;
 	};

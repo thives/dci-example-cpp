@@ -24,4 +24,9 @@ std::string SavingsAccount::name() const
 {
 	return "Savings account"s;
 }
+
+std::string SavingsAccount::description() const
+{
+	return "Savings account"s;
+}
 }
